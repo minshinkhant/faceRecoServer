@@ -2,7 +2,7 @@ const Clarifai = require ('clarifai');
 
 //faceRecog api
 const app = new Clarifai.App({
- apiKey: '1d0740fa25fe4e5b8a03525ccfb19cca'
+ apiKey: process.env.API_CLARIFAI
 });
 
 const handleApiCall = (req, res) => {
