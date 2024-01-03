@@ -20,7 +20,7 @@
     "node":"^12.14.1"
   },
   "devDependencies": {
-    "nodemon": "^1.12.7"
+    "nodemon": "^3.0.2"
   },
   "description": ""
 }
